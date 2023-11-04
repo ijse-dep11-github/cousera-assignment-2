@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-lg-4 {
+    border: 1px solid black;
+    
+}
+
+.container-fluid {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container-fluid .row div {
+    background-color: grey;
+    margin-left: 40px;
+    margin-right: 10px;
+    
+}
+.container-fluid .row div div:first-child  {
+    position: relative;
+   margin-left: 80%;
+}
+
+ #chicken {
+    width: 15%;
+    background-color: palevioletred;
+    
+   
+   
+}
+#beef {
+    width: 15%;
+    background-color: red;
+    color: antiquewhite;
+   
+}
+#sushi {
+    width: 15%;
+    background-color: papayawhip;
+   
+}
